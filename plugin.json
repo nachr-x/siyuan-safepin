@@ -1,7 +1,7 @@
 {
   "name": "siyuan-safepin",
-  "author": "nachr-dev",
-  "url": "https://github.com/nachr-dev/siyuan-safepin",
+  "author": "nachr",
+  "url": "https://github.com/nachr-x/siyuan-safepin",
   "version": "0.1.0",
   "minAppVersion": "3.5.10",
   "backends": [
@@ -25,28 +25,19 @@
   "disabledInPublish": false,
   "displayName": {
     "default": "Safe Pin",
-    "zh_CN": "安全钉住"
+    "zh_CN": "安全图钉"
   },
   "description": {
     "default": "Prevent pinned tabs from being closed until they are unpinned.",
-    "zh_CN": "防止已钉住的标签页被关闭，必须先取消钉住。"
+    "zh_CN": "防止关闭已钉住的标签页"
   },
   "readme": {
     "default": "README.md",
     "zh_CN": "README_zh_CN.md"
   },
-  "funding": {
-    "openCollective": "",
-    "patreon": "",
-    "github": "",
-    "custom": [
-      "https://ld246.com/sponsor"
-    ]
-  },
   "keywords": [
     "pinned tabs",
     "tab safety",
-    "钉住标签",
-    "防误关闭"
+    "钉住标签"
   ]
 }
