@@ -1,8 +1,8 @@
 {
-  "name": "plugin-sample",
-  "author": "Vanessa",
-  "url": "https://github.com/siyuan-note/plugin-sample",
-  "version": "0.4.6",
+  "name": "siyuan-safepin",
+  "author": "nachr-dev",
+  "url": "https://github.com/nachr-dev/siyuan-safepin",
+  "version": "0.1.0",
   "minAppVersion": "3.5.10",
   "backends": [
     "windows",
@@ -24,12 +24,12 @@
   ],
   "disabledInPublish": false,
   "displayName": {
-    "default": "Plugin Sample",
-    "zh_CN": "插件示例"
+    "default": "Safe Pin",
+    "zh_CN": "安全钉住"
   },
   "description": {
-    "default": "This is a plugin development sample",
-    "zh_CN": "这是一个插件开发示例"
+    "default": "Prevent pinned tabs from being closed until they are unpinned.",
+    "zh_CN": "防止已钉住的标签页被关闭，必须先取消钉住。"
   },
   "readme": {
     "default": "README.md",
@@ -44,8 +44,9 @@
     ]
   },
   "keywords": [
-    "开发者参考",
-    "developer reference",
-    "示例插件"
+    "pinned tabs",
+    "tab safety",
+    "钉住标签",
+    "防误关闭"
   ]
 }

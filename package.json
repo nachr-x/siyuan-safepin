@@ -1,15 +1,15 @@
 {
-  "name": "plugin-sample",
-  "version": "0.4.6",
-  "description": "This is a sample plugin for Siyuan (https://b3log.org/siyuan)",
-  "main": ".src/index.js",
+  "name": "siyuan-safepin",
+  "version": "0.1.0",
+  "description": "Prevent pinned SiYuan tabs from being closed by mistake",
+  "main": "./index.js",
   "scripts": {
     "lint": "eslint . --fix --cache",
     "dev": "webpack --mode development",
     "build": "webpack --mode production"
   },
   "keywords": [],
-  "author": "Vanessa",
+  "author": "nachr-dev",
   "license": "MIT",
   "devDependencies": {
     "@eslint/eslintrc": "^3.3.3",
