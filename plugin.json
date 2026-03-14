@@ -1,26 +1,16 @@
 {
   "name": "siyuan-safepin",
-  "author": "nachr",
+  "author": "nachr-x",
   "url": "https://github.com/nachr-x/siyuan-safepin",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "minAppVersion": "3.5.10",
   "backends": [
-    "windows",
-    "linux",
-    "darwin",
-    "ios",
-    "android",
-    "harmony",
-    "docker",
     "all"
   ],
   "frontends": [
     "desktop",
-    "mobile",
     "browser-desktop",
-    "browser-mobile",
-    "desktop-window",
-    "all"
+    "desktop-window"
   ],
   "disabledInPublish": false,
   "displayName": {
